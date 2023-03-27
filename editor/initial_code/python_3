@@ -4,7 +4,7 @@ def contar_letra(string, letra):
 
 
 print("Example:")
-print("checkio", "c")
+print(contar_letra("checkio", "c"))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
