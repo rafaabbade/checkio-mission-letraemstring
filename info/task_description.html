@@ -1,16 +1,15 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
-</p>
+Crie uma função que receba uma string e uma letra como parâmetros e retorne quantas vezes a letra aparece na string.</p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong> Uma string e uma letra.
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong> Um número inteiro indicando quantas vezes a letra aparece na string. 
 </p>
 
 
@@ -25,9 +24,11 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+contar_letra("banana", "a") >>> 3
+contar_letra("olá mundo", "o") >>> 2
+contar_letra("foo bar baz", "x") >>> 0
+
 </pre>
 {% endif %}
 </div>
